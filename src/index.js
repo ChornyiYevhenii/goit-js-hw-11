@@ -3,7 +3,6 @@ import NewsApiService from './js/news-service';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
 const refs = {
   form: document.querySelector('.search-form'),
   gallery: document.querySelector('.gallery'),
@@ -99,6 +98,7 @@ function createPageForUser(data) {
       `❌ "Sorry, there are no images matching your search query. Please try again."`
     );
   }
+  
 }
 
 async function onLoadMoreBtnClick() {
