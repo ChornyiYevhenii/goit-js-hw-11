@@ -46,10 +46,6 @@ input {
   margin-right: auto;
 }
 
-.is-hidden {
-  display: none;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +56,10 @@ input {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .photo-card {
