@@ -61,6 +61,7 @@ function onLoad(entries, observer) {
   });
 }
 
+
 function onFormSubmitSearchQuery(e) {
   e.preventDefault();
 
@@ -75,7 +76,7 @@ function onFormSubmitSearchQuery(e) {
   refs.loadMoreBtn.classList.add('is-hidden');
 
   newsApiService.resetPage();
-
+  
   newsApiService.request = e.currentTarget.elements.searchQuery.value;
 
   getFotoForUser()
@@ -151,3 +152,4 @@ function createMurkup(data) {
     })
     .join('');
 }
+
